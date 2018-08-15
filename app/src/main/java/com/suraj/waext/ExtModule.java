@@ -112,7 +112,7 @@ public class ExtModule implements IXposedHookLoadPackage, IXposedHookZygoteInit,
     private static boolean enableRRDuringSession = false;
     private static boolean isViewProfilePhotoActivityOpen = false;
     private static boolean blockContacts = false;
-    private static boolean hideToast = false;
+    private static boolean hideToast = true;
 
     private static int highlightColor = Color.GRAY;
     private static int individualHighlightColor = Color.GRAY;
